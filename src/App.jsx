@@ -1,34 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter,Link, Route, Routes } from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+    <BrowserRouter>
+      <header className="w-full flex items-center bg-[#000000] sm:px-8 px-4 py-2">
+        <Link>
+        <h1 className="text-xl text-white font-bold">
+          Naveen Dewangan
+        </h1>
+        </Link>
+        <div className="ml-auto flex">
+            <Link>
+              Projects
+            </Link>
+            <Link>
+              About
+            </Link>
+          </div>
+      </header>
+      <main className="sm:p-8 px-4 py-8 w-full bg-[#000000] min-h-[calc(100vh-73px)]">
+
+      </main>
+      <footer className="w-full flex items-center bg-[#000000] sm:px-8 px-4 py-2">
+        <p className="text-sm text-white">Made with ❤️ by <span className='text-[#ff4545]'>Naveen Dewangan</span></p>
+      </footer>
+      
+    </BrowserRouter>
   )
 }
 
