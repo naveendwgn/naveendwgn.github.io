@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
+import { SiGmail } from 'react-icons/si'
 
 function footer() {
   return (
@@ -9,6 +10,10 @@ function footer() {
           Dewangan
         </h1>
         <div className="flex items-center mb-10">
+           <a href="mailto:naveen.dewangan141@gmail.com"
+            className="text-3xl text-[#222] px-4 py-4">
+                <SiGmail />
+            </a>
             <a href="https://github.com/naveendwgn" className="text-3xl text-[#222] px-4 py-4">
                 <FaGithub />
             </a>

@@ -14,24 +14,26 @@ const skill = [
 function skills() {
   return (
     <div className='max-w7x1 mx-auto'>
-      <h1 className="flex items-center text-5xl text-[#222] font-bold mb-8 mt-8"  >   
+      <h1 className="flex items-center text-5xl text-[#222] mb-10 mt-8"  >   
         Skills
       </h1>
-        <p className="text-xl text-[#222] mb-8">
+        <p className="text-xl text-[#222] mb-10">
             I have been working on these technologies for a while now.
         </p>
       <div className="flex flex-wrap justify-center md:justify-start" >
             {skill.map((skill, index) => (
-                <div key={index}>
-                    <div className=" mr-32 text-3xl text-[#222] font-bold mb-4 mt-8">
+                <div key={index} className="flex flex-col items-center justify-center w-32 h-32 m-4 bg-black bg-opacity-5 rounded-lg">
+                    <div className="text-3xl text-[#222] font-bold mt-8">
                         {skill.icon}
                     </div>
-                    <div className="flex items-center text-lg text-[#222] mb-4 mt-8">
+                    <div className="flex items-center text-lg text-[#222] mb-6 mt-6">
                         <p>{skill.name}</p>
                      </div>
                 </div>
             ))}
-        </div>    
+        </div> 
+        <div className='mb-20'>
+          </div>   
     </div>
   )
 }

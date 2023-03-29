@@ -9,7 +9,7 @@ import Logo from './assets/logo.png';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
     <div className="w-full sm:px-8 bg-gradient-to-br from-[#EF3B36] via-[#ffdde1ef]">
       <header className="flex items-center px-6 py-6">
         <Link to='/' className='mr-4'>

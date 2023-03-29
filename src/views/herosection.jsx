@@ -1,6 +1,4 @@
 import React from 'react'
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import skills from './skills';
 
 function home() {
   return (
@@ -13,7 +11,7 @@ function home() {
           I'm a web developer and a tech enthusiast with a keen eye for aesthetic visuals.<br/>
           I love to build things and learn new things.
         </p>
-        <p className="text-xl text-[#222] mb-32">
+        <p className="text-xl text-[#222] mb-20">
         Currently I have been engaging myself in the field of full stack web development.
         </p>
     </div>

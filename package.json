@@ -1,9 +1,12 @@
 {
   "name": "portfolio-web",
   "private": true,
+  "homepage": "http://naveendwgn.github.io/", 
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
