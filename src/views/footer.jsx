@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
 
 function footer() {
   return (
-    <div className="flex flex-col items-center ml-48">
+    <div className="flex-col items-center">
         <h1 className="text-4xl text-[#222] px-4 py-4 mt-10 mb-2">
           Naveen <br/> 
           Dewangan
@@ -18,7 +18,7 @@ function footer() {
             <a href="https://www.instagram.com/naveenxig/" className="text-3xl text-[#222] px-4 py-4">
                 <FaInstagram />
             </a>
-            </div>
+        </div>
     </div>
   )
 }

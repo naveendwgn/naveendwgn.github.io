@@ -10,8 +10,8 @@ import Logo from './assets/logo.png';
 function App() {
   return (
     <BrowserRouter>
-    <div className=" bg-gradient-to-br from-[#EF3B36] via-[#ffdde1ef]">
-      <header className="w-full flex items-center sm:px-8 px-6 py-6">
+    <div className="w-full sm:px-8 bg-gradient-to-br from-[#EF3B36] via-[#ffdde1ef]">
+      <header className="flex items-center px-6 py-6">
         <Link to='/' className='mr-4'>
           <img src={Logo} alt="logo" className="w-14 h-auto" />
         </Link>
@@ -27,7 +27,7 @@ function App() {
             </Link>
           </div>
       </header>
-      <main className="sm:p-8 px-4 py-8 w-full min-h-[calc(100vh-73px)]">
+      <main className="px-4 py-8 max-[320px]:ml-8 min-[600px]:ml-52 min-h-[calc(100vh-73px)]">
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='skills' element={<Skills />} />
@@ -35,7 +35,7 @@ function App() {
           <Route path='about' element={<About />} />
         </Routes>
       </main>
-      <footer className="w-full flex sm:px-8 px-8 py-8">
+      <footer className="max-[320px]:ml-8 min-[600px]:ml-44 flex px-8 py-8">
         <Footer />
       </footer>
       </div>
