@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
 function footer() {
   return (
     <div className="flex flex-col items-center ml-48">
-        <h1 className="text-4xl text-[#222] px-4 py-4 mt-10 mb-">
+        <h1 className="text-4xl text-[#222] px-4 py-4 mt-10 mb-2">
           Naveen <br/> 
           Dewangan
         </h1>
