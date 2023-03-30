@@ -38,7 +38,7 @@ const items = [
 function projects() {
   return (
     <div className='max-w7x1 mx-auto'>
-      <h1 className="flex items-center text-5xl text-[#222] mb-8 mt-8"  >   
+      <h1 className="flex text-5xl text-[#222] mb-8 mt-8"  >   
         Projects
       </h1>
       <div className="flex flex-wrap justify-center md:justify-start mt-10" >
