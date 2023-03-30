@@ -1,13 +1,20 @@
 import React from 'react'
-import { FaReact, FaPython, FaNodeJs } from 'react-icons/fa';
-import { SiJavascript, SiMongodb, SiExpress } from 'react-icons/si';
+import { FaReact,FaHtml5, FaCss3,FaGitAlt, FaPython, FaGithub, FaNodeJs } from 'react-icons/fa';
+import { SiJavascript, SiMongodb, SiTailwindcss, SiExpress } from 'react-icons/si';
+import { SiVercel } from 'react-icons/si';
 const skill = [
     { name: 'Python', icon: <FaPython /> },
     { name: 'JavaScript', icon: <SiJavascript /> },
     { name: 'React.js', icon: <FaReact /> },
+    { name: 'HTML', icon: <FaHtml5 /> },
+    { name: 'CSS', icon: <FaCss3 /> },
+    { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
     { name: 'Node.js', icon: <FaNodeJs /> },
     { name: 'Express.js', icon: <SiExpress /> },
     { name: 'MongoDB', icon: <SiMongodb /> },
+    { name: 'Git', icon: <FaGitAlt /> },
+    { name: 'Github', icon: <FaGithub /> },
+    { name: 'Vercel', icon: <SiVercel /> },
   ];
   
 
