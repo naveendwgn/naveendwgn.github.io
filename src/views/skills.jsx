@@ -21,7 +21,7 @@ const skill = [
 function skills() {
   return (
     <div className='max-w7x1 mx-auto'>
-      <h1 className="flex items-center text-5xl text-[#222] mb-10 mt-8"  >   
+      <h1 className="flex items-center text-5xl text-[#222] mb-8 mt-8"  >   
         Skills
       </h1>
         <p className="text-xl text-[#222] mb-10">
