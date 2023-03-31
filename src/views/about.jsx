@@ -24,15 +24,15 @@ function about() {
                 </p>
             </div>
              <div class="md:w-1/3">
-            <img class="justify-end rounded-full w-48 mb-10 mt-0 max-[600px]:mb-0 ml-6 border-4 border-[#7d7d7d28]"
+            <img class="justify-end rounded-full w-48 mb-10 mt-0 max-[600px]:mb-0  max-[600px]:ml-20 ml-6 border-4 border-[#7d7d7d28]"
                 src={Naveen} alt="Naveen Dewangan" />
             </div>
         </div>
           <div className="flex items-center justify-center
-           mb-10 mt-20 mr-28 text-2xl pr-8 max-[600px]:pr-0 max-[600px]:mt-12">
+           mb-10 mt-20 mr-28 text-2xl pr-8 max-[600px]:pr-0 max-[600px]:ml-24 max-[600px]:mt-12">
              <RiLinksFill />
           </div>
-          <div className="flex flex-wrap items-center justify-evenly mt-6 mr-32 pr-8 max-[600px]:pr-0">
+          <div className="flex flex-wrap items-center justify-evenly max-[600px]:mr-8 mt-6 mr-32 pr-8 max-[600px]:pr-0">
              <a href="mailto:naveen.dewangan141@gmail.com"
               className="text-lg text-[#222] ml-4">
                 <SiGmail />
