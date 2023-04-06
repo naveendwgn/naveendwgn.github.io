@@ -27,7 +27,7 @@ function skills() {
         <p className="text-xl text-[#222] mb-10">
             I have been working on these technologies for a while now.
         </p>
-      <div className="flex flex-wrap justify-center md:justify-start" >
+      <div className="flex flex-wrap items-center justify-center md:justify-start">
             {skill.map((skill, index) => (
                 <div key={index} className="flex flex-col items-center justify-center w-32 h-32 m-4 bg-black bg-opacity-5 rounded-lg">
                     <div className="text-3xl text-[#222] font-bold mt-8">

@@ -46,8 +46,8 @@ function projects() {
           <div key={index} className="w-[470px] p-4">
             <div className="bg-black bg-opacity-5 rounded-md shadow-lg overflow-hidden">
 
-              <div className="relative pb-60 overflow-hidden rounded-t-md hover:translate-x-0.5 hover:translate-y-0.5 transform transition duration-500 ease-in-out">
-                <img className="absolute inset-0 h-full w-full object-cover" src={item.image} alt={item.name} />
+              <div className="relative pb-60 overflow-hidden rounded-t-md hover:shadow-xl transition duration-500 transform hover:-translate-y-2 hover:scale-105">
+                <img className="absolute inset-0 h-full w-full" src={item.image} alt={item.name} />
               </div>
 
               <div className="p-6 py-6">

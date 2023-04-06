@@ -8,3 +8,24 @@
 p {
 font-family: 'Garamond', 'Times New Roman', serif;
 }
+
+@media screen and (min-width: 360px) {
+  .card:nth-child(7n + 1) {
+      grid-column: auto/span 2;
+      grid-row: auto/span 2;
+  }
+}
+
+.prompt::-webkit-scrollbar {
+  width: 5px;
+}
+
+.prompt::-webkit-scrollbar-thumb {
+background-color: #666e75;
+border-radius: 5px;
+}
+
+/* Hide scrollbar for all elements */
+::-webkit-scrollbar {
+  display: yes;
+}

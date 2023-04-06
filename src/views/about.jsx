@@ -29,34 +29,34 @@ function about() {
             </div>
         </div>
           <div className="flex items-center justify-center
-           mb-10 mt-20 mr-28 text-2xl pr-8 max-[600px]:pr-0 max-[600px]:ml-24 max-[600px]:mt-12">
+           mb-10 mt-20 mr-28 text-4xl pr-8 max-[600px]:pr-0 max-[600px]:ml-24 max-[600px]:mt-12">
              <RiLinksFill />
           </div>
           <div className="flex flex-wrap items-center justify-evenly max-[600px]:mr-8 mt-6 mr-32 pr-8 max-[600px]:pr-0">
              <a href="mailto:naveen.dewangan141@gmail.com"
-              className="text-lg text-[#222] ml-4">
+              className="text-2xl text-[#222] ml-4">
                 <SiGmail />
             </a>
-            <a href="https://github.com/naveendwgn" className="text-lg text-[#222]">
+            <a href="https://github.com/naveendwgn" className="text-2xl text-[#222]">
                 <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/naveendewangan/" className="text-lg text-[#222]">
+            <a href="https://www.linkedin.com/in/naveendewangan/" className="text-2xl text-[#222]">
                 <FaLinkedinIn />
             </a>
-            <a href="https://leetcode.com/naveendewangan/" className="text-lg text-[#222]">
+            <a href="https://leetcode.com/naveendewangan/" className="text-2xl text-[#222]">
                 <SiLeetcode />
             </a>
-            <a href="https://www.codechef.com/users/naveendewangan" className="text-lg text-[#222] ml-4">
+            <a href="https://www.codechef.com/users/naveendewangan" className="text-2xl text-[#222] ml-4">
                 <SiCodechef />
             </a>
-            <a href="https://naveendwgn.medium.com/naveendwgn" className="text-lg text-[#222]">
+            <a href="https://naveendwgn.medium.com/naveendwgn" className="text-2xl text-[#222]">
                 <SiMedium />
             </a>
-            <a href="https://www.youtube.com/@NaveenDewangan/videos" className="text-lg text-[#222]">
+            <a href="https://www.youtube.com/@NaveenDewangan/videos" className="text-2xl text-[#222]">
                 <FaYoutube />
             </a>
             <a href="https://twitter.com/naveenfu"
-             className="text-lg text-[#222]">
+             className="text-2xl text-[#222]">
                 <FaTwitter />
             </a>
         </div>
