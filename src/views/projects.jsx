@@ -3,6 +3,7 @@ import Shuffle from '../assets/shuffle.png'
 import OptiVision from '../assets/optivision.png'
 import CoinVine from '../assets/coinvine.png'
 import BotBuddies from '../assets/botbuddies.png'
+import Namerize from '../assets/namerize.png'
 import { FaGithub } from 'react-icons/fa'
 
 const items = [
