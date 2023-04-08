@@ -4,6 +4,7 @@ import OptiVision from '../assets/optivision.png'
 import CoinVine from '../assets/coinvine.png'
 import BotBuddies from '../assets/botbuddies.png'
 import Namerize from '../assets/namerize.png'
+import BGenerator from '../assets/bg-generator.png'
 import { FaGithub } from 'react-icons/fa'
 
 const items = [
@@ -22,6 +23,13 @@ const items = [
     demo: 'https://opti-vision.vercel.app/'
  },
   {
+    name: 'Namerize',
+    description: 'It is a simple and easy to use tool that helps you generate product names for your business or project using AI',
+    image: Namerize,
+    code: 'https://github.com/naveendwgn/namerize',
+    demo: 'https://namerize.vercel.app/'
+  },
+  {
     name: 'CoinVine',
     description: 'CoinVine is a web application that allows you to track your favorite cryptocurrencies in real-time',
     image: CoinVine,
@@ -34,6 +42,13 @@ const items = [
     image: BotBuddies,
     code: 'https://github.com/naveendwgn/BotBuddies',
     demo: 'https://bot-buddies-pi.vercel.app/'
+  },
+  {
+    name: 'CSS Background Generator',
+    description: 'A web-app built using HTML, CSS, JavaScript that allows you to create a linear gradient background property',
+    image: BGenerator,
+    code: 'https://github.com/naveendwgn/Background-Generator',
+    demo: 'https://naveendwgn.github.io/Background-Generator/'
   }
 ]
 function projects() {

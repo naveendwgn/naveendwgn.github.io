@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiLinksFill } from 'react-icons/ri'
-import { SiGmail, SiMedium, SiLeetcode, SiCodechef } from 'react-icons/si'
+import { SiGmail, SiMedium, SiLeetcode, SiCodechef, SiSpotify } from 'react-icons/si'
 import { FaGithub, FaLinkedinIn, FaInstagram, FaYoutube, FaTwitter   } from 'react-icons/fa'
 import Naveen from '../assets/naveen.jpg'
 
@@ -24,7 +24,7 @@ function about() {
                 </p>
             </div>
              <div class="md:w-1/3">
-            <img class="justify-end rounded-full w-48 mb-10 mt-0 max-[600px]:mb-0  max-[600px]:ml-20 ml-6 border-4 border-[#7d7d7d28]"
+            <img class="justify-end rounded-full w-52 mb-10 -mt-6 max-[600px]:mb-0  max-[600px]:ml-20 ml-6 border-4 border-[#7d7d7d28]"
                 src={Naveen} alt="Naveen Dewangan" />
             </div>
         </div>
