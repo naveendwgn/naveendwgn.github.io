@@ -5,6 +5,7 @@ import Projects from './views/projects';
 import About from './views/about';
 import Homepage from './views/homepage';
 import Footer from './views/footer';
+import Photos from './views/photos';
 import Logo from './assets/logo.png';
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
               <Link to='skills' className='mr-8 text-black hover:text-[#373737]'>
                 <p>Skills</p>
               </Link>
+              <Link to='photos' className='mr-8 text-black hover:text-[#373737]'>
+                <p>Photos</p>
+              </Link>
             <Link to='about' className='mr-4 text-black hover:text-[#373737]'>
              <p>About</p>
             </Link>
@@ -32,6 +36,7 @@ function App() {
           <Route path='/' element={<Homepage />} />
           <Route path='skills' element={<Skills />} />
           <Route path='projects' element={<Projects />} />
+          <Route path='photos' element={<Photos />} />
           <Route path='about' element={<About />} />
         </Routes>
       </main>
