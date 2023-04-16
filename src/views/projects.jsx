@@ -57,6 +57,9 @@ function projects() {
       <h1 className="flex text-5xl text-[#222] mb-8 mt-8"  >   
         Projects
       </h1>
+      <p className="text-[#222] text-lg mb-8">
+        Here are some of my projects that I have worked on.
+      </p>
       <div className="flex flex-wrap justify-center md:justify-start mt-10" >
         {items.map((item, index) => (
           <div key={index} className="w-[470px] p-4">

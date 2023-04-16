@@ -3,7 +3,7 @@
 @tailwind utilities;
 :root {
   font-family: lato, sans-serif;
-  background-image: repeating-radial-gradient(ellipse at 50% 50%, #ffd0f8 0%, #f0e2ff 40%, #ffffff 100%);
+  background-image: repeating-radial-gradient(ellipse at 50% 50%, #ffd5ec 0%, #efe1ff 40%, #ffffff 100%);
 }
 
 p {
@@ -28,5 +28,5 @@ border-radius: 5px;
 
 /* Hide scrollbar for all elements */
 ::-webkit-scrollbar {
-  display: yes;
+  display: none;
 }

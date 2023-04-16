@@ -80,11 +80,11 @@ function photos() {
         Photos
       </h1>
       <p className="text-lg text-[#222] mb-10">
-        some of my photos I've captured over the years. 
+        Some of my photos I've captured over the years. 
       </p>
       <div className="flex flex-wrap items-center justify-center md:justify-start">
         {photo.map((item, index) => (
-          <div key={index} className="flex flex-col items-center justify-center w-56 h-auto m-4 bg-black bg-opacity-5 rounded-lg">
+          <div key={index} className="flex flex-col items-center justify-center w-72 h-auto m-4">
             <img src={item.image} alt="photo" className="" />
             </div>
         ))}

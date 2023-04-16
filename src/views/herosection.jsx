@@ -3,7 +3,7 @@ import React from 'react'
 function home() {
   return (
     <div className='max-w7x1 mx-auto text-left sm:text-left'>
-        <h1 className="flex items-center text-7xl max-[480px]:text-5xl text-[#222] font-bold mb-4 mt-8"
+        <h1 className="flex items-center text-7xl max-[480px]:text-5xl text-[#222] font-bold mb-4 mt-12"
         >Hi, I'm Naveen.</h1>
         <h1 className="flex items-center text-7xl max-[480px]:text-5xl text-[#222] font-bold mb-9"
         >I'm a Developer.</h1>
