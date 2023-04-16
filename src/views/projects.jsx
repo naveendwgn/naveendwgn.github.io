@@ -24,7 +24,7 @@ const items = [
  },
   {
     name: 'Namerize',
-    description: 'It is a simple and easy to use tool that helps you generate product names for your business or project using AI',
+    description: 'It is a simple and easy to use tool that helps you generate product names for your business or project',
     image: Namerize,
     code: 'https://github.com/naveendwgn/namerize',
     demo: 'https://namerize.vercel.app/'
@@ -45,7 +45,7 @@ const items = [
   },
   {
     name: 'CSS Background Generator',
-    description: 'A web-app built using HTML, CSS, JavaScript that allows you to create a linear gradient background property',
+    description: 'A web-app built using HTML, CSS, JavaScript that allows you to create a linear gradient background',
     image: BGenerator,
     code: 'https://github.com/naveendwgn/Background-Generator',
     demo: 'https://naveendwgn.github.io/Background-Generator/'
@@ -69,7 +69,7 @@ function projects() {
               <div className="p-6 py-6">
                 <h1 className="flex text-xl text-[#222] items-center justify-center mb-3"
                 >{item.name}</h1>
-                <p>
+                <p className="text-[#222] text-sm">
                   {item.description}
                 </p>
               </div>

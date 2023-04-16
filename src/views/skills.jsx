@@ -24,7 +24,7 @@ function skills() {
       <h1 className="flex items-center text-5xl text-[#222] mb-8 mt-8"  >   
         Skills
       </h1>
-        <p className="text-xl text-[#222] mb-10">
+        <p className="text-lg text-[#222] mb-10">
             I have been working on these technologies for a while now.
         </p>
       <div className="flex flex-wrap items-center justify-center md:justify-start">
@@ -33,7 +33,7 @@ function skills() {
                     <div className="text-3xl text-[#222] font-bold mt-8">
                         {skill.icon}
                     </div>
-                    <div className="flex items-center text-lg text-[#222] mb-6 mt-6">
+                    <div className="flex items-center text-md text-[#222] mb-6 mt-6">
                         <p>{skill.name}</p>
                      </div>
                 </div>

@@ -9,17 +9,17 @@ function about() {
   return (
     <div className='max-w7x1 mx-auto text-left sm:text-left'>
             <h1 className="flex items-center text-5xl text-[#222] mb-8 mt-8"
-                >About Me!</h1>
+                >Hi there!</h1>
         <div class="flex flex-col md:flex-row pr-72 max-[600px]:pr-0">
             <div class="md:w-2/3">
-                <p class="text-xl text-[#222] mb-7 mt-0">
+                <p class="text-lg text-[#222] mb-7 mt-0">
                 Final year student pursuing bachelors in technology focused in electrical engineering
                 @ <a href="" class="text-[#222]">CSVTU</a><br/>
                 </p>
-                <p class="text-xl text-[#222] mb-7 mt-6">
+                <p class="text-lg text-[#222] mb-7 mt-6">
                 I love building things and learning new things.
                 </p>
-                <p class="text-xl text-[#222] mb-7 mt-6">
+                <p class="text-lg text-[#222] mb-7 mt-6">
                 Outside of coding I enjoy watching wrestling, photography and tacos.
                 </p>
             </div>

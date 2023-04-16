@@ -11,23 +11,23 @@ import Logo from './assets/logo.png';
 function App() {
   return (
     <BrowserRouter basename="/">
-    <div className="w-full sm:px-8 bg-gradient-to-br from-[#EF3B36] via-[#ffdde1ef]">
+    <div className="w-full sm:px-10">
       <header className="flex items-center px-6 py-6">
         <Link to='/' className='mr-4'>
           <img src={Logo} alt="logo" className="w-14 h-auto" />
         </Link>
         <div className="ml-auto flex text-lg">
-            <Link to='projects' className='mr-8 text-black hover:text-[#373737]'>
-             <p>Projects</p>
+        <Link to='about' className='mr-8 text-black hover:text-[#373737] py-2'>
+             <p>About</p>
             </Link>
-              <Link to='skills' className='mr-8 text-black hover:text-[#373737]'>
+              <Link to='skills' className='mr-8 text-black hover:text-[#373737] py-2'>
                 <p>Skills</p>
               </Link>
-              <Link to='photos' className='mr-8 text-black hover:text-[#373737]'>
+              <Link to='photos' className='mr-8 text-black hover:text-[#373737] py-2'>
                 <p>Photos</p>
               </Link>
-            <Link to='about' className='mr-4 text-black hover:text-[#373737]'>
-             <p>About</p>
+              <Link to='projects' className='mr-2 bg-[#060606] text-white rounded-lg px-4 py-2 hover:bg-[#131313]'>
+             <p>Projects</p>
             </Link>
           </div>
       </header>

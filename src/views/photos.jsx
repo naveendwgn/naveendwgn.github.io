@@ -79,7 +79,7 @@ function photos() {
       <h1 className="flex items-center text-5xl text-[#222] mb-8 mt-8" >
         Photos
       </h1>
-      <p className="text-xl text-[#222] mb-10">
+      <p className="text-lg text-[#222] mb-10">
         some of my photos I've captured over the years. 
       </p>
       <div className="flex flex-wrap items-center justify-center md:justify-start">
