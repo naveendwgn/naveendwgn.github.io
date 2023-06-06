@@ -49,7 +49,7 @@ function about() {
             <a href="https://www.codechef.com/users/naveendewangan" className="text-2xl text-[#222] ml-4">
                 <SiCodechef />
             </a>
-            <a href="https://naveendwgn.medium.com/naveendwgn" className="text-2xl text-[#222]">
+            <a href="https://medium.com/@naveendwgn" className="text-2xl text-[#222]">
                 <SiMedium />
             </a>
             <a href="https://www.youtube.com/@NaveenDewangan/videos" className="text-2xl text-[#222]">

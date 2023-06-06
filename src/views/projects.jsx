@@ -69,7 +69,7 @@ function projects() {
                 </button>
                 <button className="bg-[#222] text-white py-2 px-4 rounded hover:bg-[#2d2d2d]"
                  onClick={() => window.open(item.demo)}>
-                  Demo
+                  <p>Demo</p>
                 </button>
               </div>
             </div>

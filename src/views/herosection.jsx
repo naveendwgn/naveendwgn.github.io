@@ -16,12 +16,19 @@ function home() {
         <p className="text-lg text-[#222] mb-10">
         Currently I have been engaging myself in the field of full stack web development.
         </p>
+        <div className=''>
         <button 
           className="mb-16 bg-[#101010] text-white px-4 py-2 rounded-md shadow-md hover:bg-[#333] transition duration-300 ease-in-out"
           onClick={() => navigate('/about')}
           >
           <p>About Me</p>
         </button>
+        <button 
+          className='mb-16 ml-3 bg-[#101010] text-white px-4 py-2 rounded-md shadow-md hover:bg-[#333] transition duration-300 ease-in-out'
+        >
+          <a href='https://drive.google.com/file/d/1FHx5EfxsFP1aiK0GeS9gPUHOCdMd009a/view?usp=sharing'>Download CV</a>
+        </button>
+        </div>
         <div className="border border-[#222] mb-16 mr-40 max-[480px]:w-full">
         </div>
     </div>

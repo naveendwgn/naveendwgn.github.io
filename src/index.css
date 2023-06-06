@@ -10,6 +10,9 @@
 p {
   font-family: 'DM Sans', sans-serif;
 }
+a {
+  font-family: 'DM Sans', sans-serif;
+}
 
 @media screen and (min-width: 360px) {
   .card:nth-child(7n + 1) {
