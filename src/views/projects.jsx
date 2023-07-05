@@ -4,6 +4,7 @@ import OptiVision from '../assets/optivision.png'
 import CoinVine from '../assets/coinvine.png'
 import BotBuddies from '../assets/botbuddies.png'
 import Namerize from '../assets/namerize.png'
+import ExpenseTracker from '../assets/ExpenseTracker.png'
 import BGenerator from '../assets/bg-generator.png'
 import { FaGithub } from 'react-icons/fa'
 
@@ -21,6 +22,20 @@ const items = [
     image: OptiVision,
     code: 'https://github.com/naveendwgn/OptiVision',
     demo: 'https://opti-vision.vercel.app/'
+ },
+ {
+    name: 'Namerize',
+    description: 'Namerize is a web application that allows you to generate product names for your business/product',
+    image: Namerize,
+    code: 'https://github.com/naveendwgn/namerize',
+    demo: 'https://namerize.vercel.app/'
+ },
+ {
+    name: 'Expense Trackr',
+    description: 'Expense Trackr is a web application that allows you to track your expenses with ease',
+    image: ExpenseTracker,
+    code: 'https://github.com/naveendwgn/Expense-tracker',
+    demo: 'https://expense-trackr-jade.vercel.app/'
  },
   {
     name: 'CoinVine',
