@@ -6,6 +6,7 @@ import BotBuddies from '../assets/botbuddies.png'
 import Namerize from '../assets/namerize.png'
 import ExpenseTracker from '../assets/ExpenseTracker.png'
 import BGenerator from '../assets/bg-generator.png'
+import ProHeadline from '../assets/ProHeadline.png'
 import { FaGithub } from 'react-icons/fa'
 
 const items = [
@@ -23,6 +24,13 @@ const items = [
     code: 'https://github.com/naveendwgn/OptiVision',
     demo: 'https://opti-vision.vercel.app/'
  },
+ {
+  name: 'ProHeadline',
+  description: 'ProHeadline is a web application that allows you to generate engaging LinkedIn headlines in seconds',
+  image: ProHeadline,
+  code: 'https://github.com/naveendwgn/Linkedin-Headline-Generator',
+  demo: 'https://linkedin-headline-generator-liart.vercel.app/'
+  },
  {
     name: 'Namerize',
     description: 'Namerize is a web application that allows you to generate product names for your business/product',
@@ -43,14 +51,14 @@ const items = [
     image: CoinVine,
     code: 'https://github.com/naveendwgn/CoinVine',
     demo: 'https://coinbase-ashy.vercel.app/'
-  },
-  {
+  }
+  /*{
     name: 'BotBuddies',
     description: 'BotBuddies is a simple web application where you can search through a list of Robots',
     image: BotBuddies,
     code: 'https://github.com/naveendwgn/BotBuddies',
     demo: 'https://bot-buddies-pi.vercel.app/'
-  }
+  } */
 ]
 function projects() {
   return (
